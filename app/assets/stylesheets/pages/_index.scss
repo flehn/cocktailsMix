@@ -1,0 +1,107 @@
+// Import page-specific CSS files here.
+@import "home";
+
+
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pic {
+    height: 300px;
+    width: 100vw;
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/11/09/36/lemonade-3468107_1280.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.header {
+    height: 80px;
+    width: 100vw;
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    i {
+      font-size: 30px;
+      padding-right: 10px;
+      color:#428bca;
+    }
+}
+
+.header-rigth {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+
+    }
+
+    li {
+        display: inline;
+        padding: 20px;
+
+    }
+     li:hover {
+        background-color: #428bca;
+        color: white;
+    }
+    li:active {
+        background-color: #428bca;
+        color: white;
+    }
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable {
+    padding: 40px;
+    width: 180px;
+    border: 1px solid #dedede;
+    color: #a0a0a0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.clickable i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.clickable:hover i {
+    color: #52ACF4;
+}
+
+.clickable.active {
+    color: inherit;
+    border-color: inherit;
+}
+
+.clickable.active i {
+    color: #52ACF4;
+}

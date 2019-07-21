@@ -1,1 +1,30 @@
-<h1>Hello</h1>
+<div class="pic">
+</div>
+<div class="header">
+  <div class="header-left">
+    <i class="fas fa-cocktail"></i>
+    <h3>MixDrinks</h3>
+  </div>
+  <div class="header-rigth">
+    <ul>
+      <li>Home</li>
+      <li>About us</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+
+</div>
+<div class="content-wrapper">
+  <div class="content-info">
+    <div class="text">
+      <h2>The secret of recipes</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa harum modi ut iure reprehenderit inventore asperiores voluptate doloribus quisquam commodi maxime veritatis aut vel voluptates quae dolores, recusandae nam. Nostrum?</p>
+       <%= link_to 'Create Cocktail',  new_cocktail_path, class:"btn btn-primary" %>
+    </div>
+
+    </div>
+    <div class="content-cards">
+        <%= render 'cocktails/components/cards' %>
+    </div>
+</div>

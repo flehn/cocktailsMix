@@ -1,3 +1,68 @@
-// Place all the styles related to the cocktails controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// // Place all the styles related to the cocktails controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// .pic {
+//   height: 300px;
+//   width: 100vw;
+//   background-image: url(https://cdn.pixabay.com/photo/2018/06/11/09/36/lemonade-3468107_1280.jpg);
+//   background-position: center bottom;
+//   margin-bottom: 30px;
+// }
+
+// .header {
+//   display: flex;
+//   justify-content: space-around;
+// }
+
+// a {
+//   margin: 0px;
+//   padding: 0px;
+// }
+
+
+// .container {
+//   text-align: center;
+//   margin: auto;
+//   width: 600px;
+// }
+
+
+// body {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100vh;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .clickable {
+//   padding: 40px;
+//   width: 180px;
+//   border: 1px solid #dedede;
+//   color: #a0a0a0;
+//   margin-right: 10px;
+//   margin-bottom: 10px;
+//   text-align: center;
+//   display: flex;
+//   flex-direction: column;
+//   cursor: pointer;
+// }
+
+// .clickable i {
+//   font-size: 24px;
+//   margin-bottom: 10px;
+// }
+
+// .clickable:hover i {
+//   color: #52ACF4;
+// }
+
+// .clickable.active {
+//   color: inherit;
+//   border-color: inherit;
+// }
+
+// .clickable.active i {
+//   color: #52ACF4;
+// }

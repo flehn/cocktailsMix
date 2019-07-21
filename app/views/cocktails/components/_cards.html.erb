@@ -1,0 +1,11 @@
+
+<!-- Every Cocktail -->
+<% @cocktails.each do |drink| %>
+<div class=" pt-4">
+    <div class="clickable">
+        <i class="fas fa-cocktail"></i>
+        <small>
+            <%= link_to drink.name, cocktail_path(drink)%></small>
+    </div>
+    <% end %>
+</div>

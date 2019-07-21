@@ -17,3 +17,8 @@
 import 'bootstrap';
 
 console.log('Hello World from Webpacker')
+
+const clickbutton = document.querySelectorAll(".clickable");
+clickbutton.forEach((items) => {
+  items.addEventListener("click", event => myFunction(event));
+});
